@@ -1,6 +1,6 @@
 version: '3'
 services:
-    aiptv:
+  aiptv:
     image: xtinct101/aiptv
     container_name: aiptv
     restart: unless-stopped
