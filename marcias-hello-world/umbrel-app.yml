@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-hello-world
 name: Hello World
 tagline: to jest original template umbrel
-icon: https://marcias.pl/umbrel/marcias.jpg
+icon: https://marcias.pl/umbrel/marcias.png
 category: Development
 version: "1.0.0"
 port: 4000
