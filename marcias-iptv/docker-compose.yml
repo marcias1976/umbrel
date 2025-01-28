@@ -1,13 +1,11 @@
-version: '3'
 services:
   aiptv:
     image: xtinct101/aiptv:latest
     container_name: aiptv
     restart: unless-stopped
-    networks:
-        bridge
+    networks_mode: bridge
     ports:
-        5002:5002
+      - 5002:5002
     environment:
         DB_PORT=5433 #optional
         PORT=5002
