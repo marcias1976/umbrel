@@ -1,27 +1,28 @@
 manifestVersion: 1
 id: marcias-iptv
 name: Aiptv
-tagline: Stream IPTV
-icon: https://marcias.pl/umbrel/conbee.png
+tagline: Stream IPTV - M3U Proxy Server
+icon: https://marcias.pl/umbrel/aiptv.png
 category: marciasmedia
 version: "free"
 port: 5000
 description: >-
-  Add your app's description here.
+  AIPTV is an M3U proxy server, developed through AI-assisted programming.
 
+  This project began as an experiment to see what I can create with AI and limited programming experience. 
+  It has since expanded to include a modern approach to playlist management, 
+  combining proxy capabilities with an intuitive user interface.
 
-  You can also add newlines!
-
-developer: Dresden-Elektronik
-website: https://github.com/dresden-elektronik
+developer: Xtinct101
+website: https://hub.docker.com/r/xtinct101/aiptv
 submitter: Deconz Community
-submission: https://github.com/Stirling-Tools/Stirling-PDF
-repo: https://github.com/deconz-community/deconz-docker#readme
-support: https://github.com/deconz-community/deconz-docker#readme
+submission: https://hub.docker.com/r/xtinct101/aiptv
+repo: https://hub.docker.com/r/xtinct101/aiptv
+support: https://hub.docker.com/r/xtinct101/aiptv
 gallery:
-  - https://marcias.pl/umbrel/stirling_pdf-1.jpg
-  - https://marcias.pl/umbrel/stirling_pdf-2.jpg
-  - https://marcias.pl/umbrel/stirling_pdf-3.jpg
+  - https://marcias.pl/umbrel/aiptv-gallery-1.jpg
+  - https://marcias.pl/umbrel/aiptv-gallery-2.jpg
+  - https://marcias.pl/umbrel/aiptv-gallery-3.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
