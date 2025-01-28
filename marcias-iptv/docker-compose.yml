@@ -1,0 +1,19 @@
+version: '3'
+services:
+    aiptv:
+    image: xtinct101/aiptv
+    container_name: aiptv
+    restart: unless-stopped
+    networks:
+        bridge
+    ports:
+        5002:5002
+    environment:
+        DB_PORT=5433 #optional
+        PORT=5002
+        PUID=$PUID
+        PGID=$PGID
+    volumes:
+        - ${APP_DATA_DIR}/data/aiptv/:/aiptv/data/
+    #devices: #optional
+    #   /dev/dri:/dev/dri

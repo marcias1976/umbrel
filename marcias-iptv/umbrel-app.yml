@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: marcias-deconz
-name: Phoscon
-tagline: Zigbee Gateway Conbee
+id: marcias-iptv
+name: Aiptv
+tagline: Stream IPTV
 icon: https://marcias.pl/umbrel/conbee.png
 category: marciasmedia
 version: "free"
-port: 8082
+port: 5002
 description: >-
   Add your app's description here.
 
