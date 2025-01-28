@@ -8,7 +8,6 @@ services:
       - 5002:5002
     environment:
         DB_PORT=5433 #optional
-        PORT=5002
         PUID=$PUID
         PGID=$PGID
     volumes:
