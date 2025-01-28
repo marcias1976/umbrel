@@ -5,7 +5,7 @@ tagline: Stream IPTV
 icon: https://marcias.pl/umbrel/conbee.png
 category: marciasmedia
 version: "free"
-port: 5002
+port: 5000
 description: >-
   Add your app's description here.
 
