@@ -7,18 +7,15 @@ category: marciasmedia
 version: "free"
 port: 3000
 description: >-
-  AIPTV is an M3U proxy server, developed through AI-assisted programming.
+  DumbPad.
+  A stupid simple, no auth (unless you want it!), modern notepad application with auto-save functionality and dark mode support.
 
-  This project began as an experiment to see what I can create with AI and limited programming experience. 
-  It has since expanded to include a modern approach to playlist management, 
-  combining proxy capabilities with an intuitive user interface.
-
-developer: Xtinct101
-website: https://hub.docker.com/r/xtinct101/aiptv
-submitter: Xtinct101
-submission: https://hub.docker.com/r/xtinct101/aiptv
-repo: https://hub.docker.com/r/xtinct101/aiptv
-support: https://hub.docker.com/r/xtinct101/aiptv
+developer: DumbVareio
+website: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
+submitter: DumbVareio
+submission: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
+repo: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
+support: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 gallery:
   - https://marcias.pl/umbrel/aiptv-gallery-1.jpg
   - https://marcias.pl/umbrel/aiptv-gallery-2.jpg
