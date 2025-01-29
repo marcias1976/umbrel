@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-dumbpad
 name: Basic Notes
 tagline: Dumbpad basic notes
-icon: https://marcias.pl/umbrel/notes.png
+icon: https://marcias.pl/umbrel/dumbpad.png
 category: marciasmedia
 version: "free"
 port: 3000
