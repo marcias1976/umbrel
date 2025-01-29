@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: marcias-notes
+name: notes
+tagline: Stream IPTV - M3U Proxy Server
+icon: https://marcias.pl/umbrel/aiptv.png
+category: marciasmedia
+version: "free"
+port: 3000
+description: >-
+  AIPTV is an M3U proxy server, developed through AI-assisted programming.
+
+  This project began as an experiment to see what I can create with AI and limited programming experience. 
+  It has since expanded to include a modern approach to playlist management, 
+  combining proxy capabilities with an intuitive user interface.
+
+developer: Xtinct101
+website: https://hub.docker.com/r/xtinct101/aiptv
+submitter: Xtinct101
+submission: https://hub.docker.com/r/xtinct101/aiptv
+repo: https://hub.docker.com/r/xtinct101/aiptv
+support: https://hub.docker.com/r/xtinct101/aiptv
+gallery:
+  - https://marcias.pl/umbrel/aiptv-gallery-1.jpg
+  - https://marcias.pl/umbrel/aiptv-gallery-2.jpg
+  - https://marcias.pl/umbrel/aiptv-gallery-3.jpg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
