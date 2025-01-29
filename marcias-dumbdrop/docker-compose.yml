@@ -3,7 +3,7 @@ services:
     dumbdrop:
         image: abite3/dumbdrop:latest
         ports:
-            - "3001:3001"
+            - "3000:3001"
         volumes:
             - "${APP_DATA_DIR}/local_uploads:/app/uploads"
         environment:
