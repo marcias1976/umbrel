@@ -1,8 +1,8 @@
 manifestVersion: 1
-id: marcias-notes
-name: notes
-tagline: Stream IPTV - M3U Proxy Server
-icon: https://marcias.pl/umbrel/aiptv.png
+id: marcias-dumbpad
+name: Basic Notes
+tagline: Dumbpad basic notes
+icon: https://marcias.pl/umbrel/notes.png
 category: marciasmedia
 version: "free"
 port: 3000
