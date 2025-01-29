@@ -5,5 +5,5 @@ services:
         ports:
             - "3000:3000"
         volumes:
-            - "${APP_DATA_DIR}/data:/app/data'
+            - "${APP_DATA_DIR}/data:/app/data"
         
