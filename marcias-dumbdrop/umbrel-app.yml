@@ -5,7 +5,7 @@ tagline: Dumbdrop basic upload
 icon: https://marcias.pl/umbrel/dumbdrop.png
 category: marciasmedia
 version: "free"
-port: 3001
+port: 7608
 description: >-
   DumbDrop.
   A stupid simple file upload application that provides a clean, modern interface for dragging and dropping files. 
