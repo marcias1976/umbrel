@@ -17,9 +17,9 @@ submission: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 repo: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 support: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 gallery:
-  - https://marcias.pl/umbrel/aiptv-gallery-1.jpg
-  - https://marcias.pl/umbrel/aiptv-gallery-2.jpg
-  - https://marcias.pl/umbrel/aiptv-gallery-3.jpg
+  - https://marcias.pl/umbrel/dumbpad-gallery-1.jpg
+  - https://marcias.pl/umbrel/dumbpad-gallery-2.jpg
+  - https://marcias.pl/umbrel/dumbpad-gallery-3.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
