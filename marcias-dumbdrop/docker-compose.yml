@@ -7,5 +7,5 @@ services:
         volumes:
             - "${APP_DATA_DIR}/local_uploads:/app/uploads"
         environment:
-            - "DUMBDROP_PIN=123456"
+            - DUMBDROP_PIN=123456
         
