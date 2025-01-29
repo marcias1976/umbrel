@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+    dumbdrop:
+        image: abite3/dumbdrop:latest
+        ports:
+            - "3100:3100"
+        volumes:
+            "${APP_DATA_DIR}/local_uploads:/app/uploads"
+        environment:
+            - DUMBDROP_PIN=123456
+        
