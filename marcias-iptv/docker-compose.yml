@@ -1,4 +1,5 @@
 services:
+  app_proxy:
   aiptv:
     image: xtinct101/aiptv:latest
     container_name: aiptv
