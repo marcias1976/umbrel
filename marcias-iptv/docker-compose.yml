@@ -1,5 +1,7 @@
 services:
   app_proxy:
+    environment: 
+      PROXY_AUTH_ADD: "false"
   aiptv:
     image: xtinct101/aiptv:latest
     container_name: aiptv
