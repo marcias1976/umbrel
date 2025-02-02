@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  psql:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: <user>
+      POSTGRES_PASSWORD: <password>
+      POSTGRES_DB: <db>
+    volumes:
+      - "${APP_DATA_DIR}/psql_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  psql_data:

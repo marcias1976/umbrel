@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: marcias-postgres
+name: PostgreSQL
+tagline: Databases relative SQL
+icon: https://marcias.pl/umbrel/mongodb.png
+category: marciasmedia
+version: "free"
+port: 5432
+description: >-
+  DumbDrop.
+  A stupid simple file upload application that provides a clean, modern interface for dragging and dropping files. 
+  Built with Node.js and vanilla JavaScript.
+
+developer: DumbVareio
+website: https://github.com/DumbWareio/DumbDrop
+submitter: DumbVareio
+submission: https://github.com/DumbWareio/DumbDrop
+repo: https://github.com/DumbWareio/DumbDrop
+support: https://github.com/DumbWareio/DumbDrop
+gallery:
+  - https://marcias.pl/umbrel/dumbdrop-gallery-1.jpg
+  - https://marcias.pl/umbrel/dumbdrop-gallery-2.jpg
+  - https://marcias.pl/umbrel/dumbdrop-gallery-3.jpg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
