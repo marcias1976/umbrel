@@ -1,21 +1,15 @@
 version: '3'
 
 services:
-  nginx:
-    image: nginx:latest
-    ports:
-      - "780:80"
-    volumes:
-      - "${APP_DATA_DIR}/www/html:/usr/share/nginx/html"
-    restart: always
-
-
-app:
+  music:
     image: ghcr.io/blackcandy-org/blackcandy:latest 
+    ports:
+      - "7575:80"
     volumes:
-      - ./storage_data:/app/storage
-      - /media_data:/media_data
+      - "${APP_DATA_DIR}/storage_data:/app/storage"
+      - "${APP_DATA_DIR}/media_data:/media_data"
+    restart: always
     environment:
       VIRTUAL_HOST: blackcandy.local
       MEDIA_PATH: /media_data
-      NGINX_SENDFILE: "true" # Don
+      NGINX_SENDFILE: "true" 
