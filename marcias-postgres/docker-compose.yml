@@ -5,9 +5,9 @@ services:
     image: postgres
     restart: always
     environment:
-      - POSTGRES_USER: <admin>
-      - POSTGRES_PASSWORD: <password>
-      - POSTGRES_DB: <marcias>
+      - POSTGRES_USER=admin>
+      - "POSTGRES_PASSWORD=password
+      - "POSTGRES_DB: marcias"
     volumes:
       - "${APP_DATA_DIR}/psql_data:/var/lib/postgresql/data"
     ports:
