@@ -7,7 +7,7 @@ services:
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=admin
-      - POSTGRES_DB=pydio
+      - POSTGRES_DB=Marcias
     volumes:
       - "${APP_DATA_DIR}/psql_data:/var/lib/postgresql/data"
     ports:
