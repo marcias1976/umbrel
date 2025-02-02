@@ -18,9 +18,9 @@ submission: https://github.com/DumbWareio/DumbDrop
 repo: https://github.com/DumbWareio/DumbDrop
 support: https://github.com/DumbWareio/DumbDrop
 gallery:
-  - https://marcias.pl/umbrel/dumbdrop-gallery-1.jpg
-  - https://marcias.pl/umbrel/dumbdrop-gallery-2.jpg
-  - https://marcias.pl/umbrel/dumbdrop-gallery-3.jpg
+  - https://marcias.pl/umbrel/gallery.png
+  - https://marcias.pl/umbrel/gallery.png
+  - https://marcias.pl/umbrel/gallery.png
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
