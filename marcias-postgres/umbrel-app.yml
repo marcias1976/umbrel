@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-postgres
 name: PostgreSQL
 tagline: Databases relative SQL
-icon: https://marcias.pl/umbrel/mongodb.png
+icon: https://marcias.pl/umbrel/postgres.png
 category: marciasmedia
 version: "free"
 port: 5432
