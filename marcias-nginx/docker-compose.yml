@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: twoja-id-prosta-strona_nginx_1
+      APP_HOST: marcias-nginx
       APP_PORT: 80
 
   nginx:
