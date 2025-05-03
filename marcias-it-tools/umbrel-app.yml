@@ -19,9 +19,9 @@ submission: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to
 repo: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
 support: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
 gallery:
-  - https://jakubmedia.com/umbrel/gallery.jpeg
-  - https://jakubmedia.com/umbrel/gallery.jpeg
-  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
