@@ -16,9 +16,9 @@ submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
-  - https://jakubmedia.com/umbrel/gallery.jpeg
-  - https://jakubmedia.com/umbrel/gallery.jpeg
-  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
