@@ -17,9 +17,9 @@ submission: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 repo: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 support: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 gallery:
-  - https://jakubmedia.com/umbrel/gallery.jpeg
-  - https://jakubmedia.com/umbrel/gallery.jpeg
-  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
