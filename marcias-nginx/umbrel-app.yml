@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-nginx
 name: Nginx
 tagline: Prosty serwer WWW
-icon: http://jakubmedia.com/umbrel/nginx.png
+icon: https://jakubmedia.com/umbrel/nginx.png
 category: marciasmedia
 version: "1.0.0"
 port: 780
