@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-iptv
 name: Aiptv
 tagline: Stream IPTV - M3U Proxy Server
-icon: https://marcias.pl/umbrel/aiptv.png
+icon: https://jakubmedia.com/umbrel/aiptv.png
 category: marciasmedia
 version: "free"
 port: 5000
@@ -20,9 +20,9 @@ submission: https://hub.docker.com/r/xtinct101/aiptv
 repo: https://hub.docker.com/r/xtinct101/aiptv
 support: https://hub.docker.com/r/xtinct101/aiptv
 gallery:
-  - https://marcias.pl/umbrel/aiptv-gallery-1.jpg
-  - https://marcias.pl/umbrel/aiptv-gallery-2.jpg
-  - https://marcias.pl/umbrel/aiptv-gallery-3.jpg
+  - https://jakubmedia.com/umbrel/aiptv-gallery-1.jpeg
+  - https://jakubmedia.com/umbrel/aiptv-gallery-2.jpeg
+  - https://jakubmedia.com/umbrel/aiptv-gallery-3.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []

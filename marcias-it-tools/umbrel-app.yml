@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-it-tools
 name: IT Tools
 tagline: Narzedzie dla informatykow
-icon: http://marcias.pl/umbrel/it-tools.png
+icon: https://jakubmedia.com/umbrel/it-tools.png
 category: marciasmedia
 version: "1.0.0"
 port: 8080
@@ -19,9 +19,9 @@ submission: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to
 repo: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
 support: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
 gallery:
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []

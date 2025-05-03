@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-dumbdrop
 name: Upload
 tagline: Dumbdrop basic upload
-icon: https://marcias.pl/umbrel/dumbdrop.png
+icon: https://jakubmedia.com/umbrel/dumbdrop.png
 category: marciasmedia
 version: "free"
 port: 7608
@@ -18,9 +18,9 @@ submission: https://github.com/DumbWareio/DumbDrop
 repo: https://github.com/DumbWareio/DumbDrop
 support: https://github.com/DumbWareio/DumbDrop
 gallery:
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []

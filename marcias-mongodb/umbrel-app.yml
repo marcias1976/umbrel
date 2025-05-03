@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-mongodb
 name: MongoDB
 tagline: Nierelacyjna baza danych Mongo DB
-icon: http://marcias.pl/umbrel/mongodb.png
+icon: https://jakubmedia.com/umbrel/mongodb.png
 category: marciasmedia
 version: "1.0.0"
 port: 27017
@@ -16,9 +16,9 @@ submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []

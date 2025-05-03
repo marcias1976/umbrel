@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-dumbpad
 name: Notes
 tagline: Dumbpad basic notes
-icon: https://marcias.pl/umbrel/dumbpad.png
+icon: https://jakubmedia.com/umbrel/dumbpad.png
 category: marciasmedia
 version: "free"
 port: 3000
@@ -17,9 +17,9 @@ submission: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 repo: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 support: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
 gallery:
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
-  - https://marcias.pl/umbrel/gallery.png
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
+  - https://jakubmedia.com/umbrel/gallery.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
