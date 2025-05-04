@@ -1,15 +1,15 @@
 manifestVersion: 1
 id: marcias-dumbdrop
 name: Upload
-tagline: Dumbdrop basic upload
+tagline: Prosty system przesyłania plików DumbDrop
 icon: https://jakubmedia.com/umbrel/dumbdrop.png
 category: marciasmedia
 version: "free"
 port: 7608
 description: >-
   DumbDrop.
-  A stupid simple file upload application that provides a clean, modern interface for dragging and dropping files. 
-  Built with Node.js and vanilla JavaScript.
+  Banalnie prosty system przesyłania plików, który oferuje czysty i nowoczesny interfejs do przeciągania i upuszczania plików.
+  Zbudowany z wykorzystaniem Node.js i czystego JavaScriptu.
 
 developer: DumbVareio
 website: https://github.com/DumbWareio/DumbDrop
@@ -22,7 +22,7 @@ gallery:
   - https://jakubmedia.com/umbrel/gallery.jpg
   - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Informacje o nowościach w najnowszej wersji aplikacji - brak
 dependencies: []
 path: ""
 defaultUsername: ""
