@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   aiptv:
-    image: monis256/aiptv:latest
+    image: 4gray/iptvnator:latest
     container_name: Aiptv
     restart: unless-stopped
     network_mode: bridge
