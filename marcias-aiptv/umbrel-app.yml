@@ -5,7 +5,7 @@ tagline: Stream IPTV - M3U Proxy Server
 icon: https://jakubmedia.com/umbrel/aiptv.png
 category: marciasmedia
 version: "free"
-port: 5050
+port: 51976
 description: >-
   AIPTV is an M3U proxy server, developed through AI-assisted programming.
 
