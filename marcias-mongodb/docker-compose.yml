@@ -9,8 +9,8 @@ services:
     volumes:
       - "${APP_DATA_DIR}/mongo_data:/data/db"
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=example
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
     command: ["--bind_ip_all"]
 
   mongo-express:
