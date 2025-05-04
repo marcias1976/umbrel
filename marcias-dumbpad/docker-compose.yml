@@ -7,4 +7,5 @@ services:
         volumes:
             - "${APP_DATA_DIR}/data:/app/data"
         environment:
-            - DUMBPAD_PIN=1234 
+            - DUMBPAD_PIN=${DUMBPAD_PIN:-}
+            
