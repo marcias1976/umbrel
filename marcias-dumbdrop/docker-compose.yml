@@ -8,6 +8,6 @@ services:
             - "${APP_DATA_DIR}/local_uploads:/app/uploads"
         environment:
             DUMBDROP_TITLE: DumbDrop
-            DUMBDROP_PIN: 123456
+            DUMBDROP_PIN: ${DUMBDROP_PIN:-}
 #           - MAX_FILE_SIZE=2048
         
