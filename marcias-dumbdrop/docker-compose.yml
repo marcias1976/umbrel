@@ -7,6 +7,7 @@ services:
         volumes:
             - "${APP_DATA_DIR}/local_uploads:/app/uploads"
         environment:
-            - DUMBDROP_PIN: 123456
+            DUMBDROP_TITLE: DumbDrop
+            DUMBDROP_PIN: 123456
 #           - MAX_FILE_SIZE=2048
         
