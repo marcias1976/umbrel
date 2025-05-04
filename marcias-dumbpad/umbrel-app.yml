@@ -1,14 +1,15 @@
 manifestVersion: 1
 id: marcias-dumbpad
 name: Notes
-tagline: Dumbpad basic notes
+tagline: Prosty notatnik DumbPad
 icon: https://jakubmedia.com/umbrel/dumbpad.png
 category: marciasmedia
 version: "free"
 port: 3000
 description: >-
   DumbPad.
-  A stupid simple, no auth (unless you want it!), modern notepad application with auto-save functionality and dark mode support.
+  Banalnie prosty, nowoczesny notatnik bez logowania (chyba że chcesz!). 
+  Obsługuje automatyczne zapisywanie notatek oraz tryb ciemny dla wygodniejszego użytkowania.
 
 developer: DumbVareio
 website: https://github.com/DumbWareio/DumbPad?tab=readme-ov-file
@@ -21,7 +22,7 @@ gallery:
   - https://jakubmedia.com/umbrel/gallery.jpg
   - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Informacje o nowościach w najnowszej wersji aplikacji - brak
 dependencies: []
 path: ""
 defaultUsername: ""
