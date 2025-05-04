@@ -2,7 +2,7 @@ manifestVersion: 1
 id: marcias-iptv
 name: Iptv
 tagline: Stream IPTV - M3U Proxy Server
-icon: https://jakubmedia.com/umbrel/aiptv.png
+icon: https://jakubmedia.com/umbrel/iptv.png
 category: marciasmedia
 version: "free"
 port: 5000
