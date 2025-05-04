@@ -1,19 +1,21 @@
 manifestVersion: 1
 id: marcias-it-tools
 name: IT Tools
-tagline: Narzedzie dla informatykow
+tagline: Narzędzie dla informatyków
 icon: https://jakubmedia.com/umbrel/it-tools.png
 category: marciasmedia
 version: "1.0.0"
 port: 8080
 description: >-
-  Add your app's description here.
+  IT Tools.
+  Zestaw prostych, samoobsługowych narzędzi dla informatyków i administratorów systemów,
+  dostępny przez przeglądarkę. Aplikacja zawiera konwertery, generatory, testery sieciowe
+  oraz narzędzia do kodowania i dekodowania danych. 
 
+  Idealne rozwiązanie do codziennego użytku w pracy z systemami, siecią i kodem.
 
-  You can also add newlines!
-
-developer: Marciasmedia
-website: https://umbrel.com
+developer: Paul
+website: https://www.paulsblog.dev
 submitter: IT Tools
 submission: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
 repo: https://www.paulsblog.dev/deploy-self-hosted-it-tools-with-docker-to-optimize-workflow/
@@ -23,9 +25,8 @@ gallery:
   - https://jakubmedia.com/umbrel/gallery.jpg
   - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Dodano pierwszą wersję aplikacji z zestawem podstawowych narzędzi IT.
 dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-
