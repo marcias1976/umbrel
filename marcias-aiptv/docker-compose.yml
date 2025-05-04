@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     network_mode: bridge
     ports:
-      - "51976:5000"
+      - "51976:80"
     environment:
       DB_PORT: "5433" # opcjonalnie
       PUID: "${PUID}"
