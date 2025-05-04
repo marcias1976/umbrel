@@ -1,18 +1,20 @@
 manifestVersion: 1
 id: marcias-postgres
 name: PostgreSQL
-tagline: Databases relative SQL
+tagline: Relacyjna baza danych SQL
 icon: https://jakubmedia.com/umbrel/postgres.png
 category: marciasmedia
 version: "free"
 port: 5432
 description: >-
-  DumbDrop.
-  A stupid simple file upload application that provides a clean, modern interface for dragging and dropping files. 
-  Built with Node.js and vanilla JavaScript.
+  PostgreSQL.
+  Wydajna, obiektowo-relacyjna baza danych SQL, która wspiera zaawansowane funkcje, takie jak transakcje ACID,
+  złożone zapytania, kontrola integralności danych i wsparcie dla wielu typów danych. 
 
-developer: DumbVareio
-website: https://github.com/DumbWareio/DumbDrop
+  Idealna do aplikacji, które wymagają elastyczności, skalowalności i niezawodności w przechowywaniu danych.
+
+developer: PostgreSQL Global Development Group
+website: https://www.postgresql.org
 submitter: DumbVareio
 submission: https://github.com/DumbWareio/DumbDrop
 repo: https://github.com/DumbWareio/DumbDrop
@@ -22,7 +24,7 @@ gallery:
   - https://jakubmedia.com/umbrel/gallery.jpg
   - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Dodano pierwszą wersję aplikacji PostgreSQL w kontenerze Docker.
 dependencies: []
 path: ""
 defaultUsername: ""
