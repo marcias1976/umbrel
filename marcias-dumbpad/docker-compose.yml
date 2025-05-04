@@ -1,10 +1,10 @@
 version: '3.9'
 services:
     dumbpad:
-        image: 'dumbwareio/dumbpad:latest'
+        image: dumbwareio/dumbpad:latest
         ports:
             - "3000:3000"
         volumes:
             - "${APP_DATA_DIR}/data:/app/data"
         environment:
-            - DUMBDROP_PIN=${DUMBDROP_PIN}
+            - DUMBPAD_PIN: ${DUMBPAD_PIN:}
