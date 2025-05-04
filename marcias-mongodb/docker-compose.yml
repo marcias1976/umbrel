@@ -1,20 +1,34 @@
 version: "3.8"
+
 services:
   mongo:
-    image: mongo:latest
+    image: mongo:8.0
     container_name: mongo_container
-    restart: always
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
-      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
     ports:
       - "27017:27017"
     volumes:
       - "${APP_DATA_DIR}/mongo_data:/data/db"
-    networks:
-      - mongo_network
-volumes:
-  mongo_data: null
-networks:
-  mongo_network:
-    driver: bridge
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=example
+    command: ["--bind_ip_all"]
+
+  mongo-express:
+    image: mongo-express
+    container_name: mongo_express_container
+    ports:
+      - "8085:8081"
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=example
+      - ME_CONFIG_MONGODB_SERVER=mongo
+    depends_on:
+      - mongo
+
+
+
+
+
+
+
+
