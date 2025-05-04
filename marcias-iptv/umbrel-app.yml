@@ -20,9 +20,9 @@ submission: https://hub.docker.com/r/xtinct101/aiptv
 repo: https://hub.docker.com/r/xtinct101/aiptv
 support: https://hub.docker.com/r/xtinct101/aiptv
 gallery:
-  - https://jakubmedia.com/umbrel/aiptv-gallery-1.jpg
-  - https://jakubmedia.com/umbrel/aiptv-gallery-2.jpg
-  - https://jakubmedia.com/umbrel/aiptv-gallery-3.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
