@@ -7,7 +7,7 @@ services:
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=marcias
+      - POSTGRES_DB=jakubmedia
     volumes:
       - "${APP_DATA_DIR}/psql_data:/var/lib/postgresql/data"
     ports:
