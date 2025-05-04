@@ -7,10 +7,14 @@ category: marciasmedia
 version: "1.0.0"
 port: 780
 description: >-
-  Add your app's description here.
-  You can also add newlines!
-developer: Marciasmedia
-website: https://umbrel.com
+  Nginx.
+  Wydajny i lekki serwer WWW, który może pełnić rolę serwera HTTP, proxy odwrotnego, load balancera oraz serwera poczty.
+  Idealny do obsługi dynamicznych i statycznych aplikacji webowych oraz jako frontend dla innych usług.
+  
+  Szeroko stosowany w produkcji ze względu na swoje możliwości skalowania, szybkość i niezawodność.
+
+developer: Nginx Inc.
+website: https://nginx.org
 submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/getumbrel/umbrel-hello-world-app
@@ -20,7 +24,7 @@ gallery:
   - https://jakubmedia.com/umbrel/gallery.jpg
   - https://jakubmedia.com/umbrel/gallery.jpg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Pierwsza wersja aplikacji Nginx jako usługa w kontenerze Docker.
 dependencies: []
 path: ""
 defaultUsername: ""
