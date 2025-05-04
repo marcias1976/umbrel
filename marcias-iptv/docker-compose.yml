@@ -1,7 +1,7 @@
 services:
   aiptv:
     image: xtinct101/aiptv:latest
-    container_name: aiptv
+    container_name: iptv
     restart: unless-stopped
     network_mode: bridge
     ports:
