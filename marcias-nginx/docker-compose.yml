@@ -4,7 +4,7 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - "780:80"
+      - "880:80"
     volumes:
       - "${APP_DATA_DIR}/www/html:/usr/share/nginx/html"
     restart: always
