@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: nginx_web_1
-      APP_PORT: 580
+      APP_PORT: 80
 
   web:
     image: nginx:latest
