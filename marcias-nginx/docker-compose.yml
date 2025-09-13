@@ -1,10 +1,13 @@
 version: "3.7"
 
 services:
-  nginx:
+  app_proxy:
+    environment:
+      APP_HOST: nginx_web_1
+      APP_PORT: 880
+
+  web:
     image: nginx:latest
-    ports:
-      - "880:80"
     volumes:
       - "${APP_DATA_DIR}/www/html:/usr/share/nginx/html"
-    restart: always
+    restart: on-failure
