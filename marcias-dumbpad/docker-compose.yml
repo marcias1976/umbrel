@@ -13,11 +13,4 @@ services:
       - ${APP_DATA_DIR}/data:/app/data
     environment:
       - DUMBPAD_PIN=${DUMBPAD_PIN:-}
-    entrypoint: |
-      sh -c '
-        mkdir -p /app/data
-        if [ ! -f /app/data/notepads.json ]; then
-          echo "[]" > /app/data/notepads.json
-        fi
-        exec npm start
-      '
+
