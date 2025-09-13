@@ -3,7 +3,7 @@ services:
     dumbpad:
         image: dumbwareio/dumbpad:latest
         ports:
-            - "7608:3000"
+            - "7676:3000"
         volumes:
             - "${APP_DATA_DIR}/data:/app/data"
         environment:
