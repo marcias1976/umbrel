@@ -1,5 +1,4 @@
 version: '3.9'
-
 services:
   app_proxy:
     environment:
@@ -10,8 +9,6 @@ services:
     image: dumbwareio/dumbpad:latest
     restart: on-failure
     volumes:
-      - "${APP_DATA_DIR}/data:/app/data"
+      - ${APP_DATA_DIR}/data:/app/data
     environment:
       - DUMBPAD_PIN=${DUMBPAD_PIN:-}
-    command: sh -c "mkdir -p /app/data && chmod 777 /app/data && npm start"
-          
