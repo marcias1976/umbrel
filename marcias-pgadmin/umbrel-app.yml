@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: marcias-pgadmin
+name: pgAdmin
+tagline: Narzędzie do zarządzania PostgreSQL
+icon: https://jakubmedia.com/umbrel/pgadmin.png
+category: marciasmedia
+version: "free"
+port: 5050
+description: >-
+  pgAdmin.
+  Najpopularniejsze i najbogatsze w funkcje narzędzie do administracji i zarządzania bazami danych PostgreSQL.
+  Umożliwia łatwe zarządzanie serwerami, bazami danych, tabelami, użytkownikami i wykonywanie zapytań SQL
+  poprzez intuicyjny interfejs webowy.
+
+  Idealne do programistów i administratorów baz danych, którzy potrzebują zaawansowanego narzędzia
+  do monitorowania i zarządzania PostgreSQL.
+
+developer: The pgAdmin Development Team
+website: https://www.pgadmin.org
+submitter: DumbVareio
+submission: https://github.com/DumbWareio/DumbDrop
+repo: https://github.com/DumbWareio/DumbDrop
+support: https://github.com/DumbWareio/DumbDrop
+gallery:
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+releaseNotes: >-
+  Dodano pierwszą wersję aplikacji pgAdmin w kontenerze Docker.
+dependencies: []
+path: ""
+defaultUsername: "admin@admin.com"
+defaultPassword: "admin"
