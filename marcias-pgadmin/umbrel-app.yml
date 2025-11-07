@@ -5,7 +5,7 @@ tagline: Narzędzie do zarządzania PostgreSQL
 icon: https://jakubmedia.com/umbrel/pgadmin.png
 category: marciasmedia
 version: "free"
-port: 5050
+port: 5051
 description: >-
   pgAdmin.
   Najpopularniejsze i najbogatsze w funkcje narzędzie do administracji i zarządzania bazami danych PostgreSQL.
