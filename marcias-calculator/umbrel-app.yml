@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: marcias-calculator
+name: "Kalkulator"
+tagline: "Elegancki kalkulator w stylu glass-morphism"
+icon: https://raw.githubusercontent.com/marcias1976/umbrel/main/marcias-calculator/icon.svg
+category: marciasmedia
+version: "1.0.0"
+port: 3080
+description: >-
+  Piękny, nowoczesny kalkulator zbudowany w React z Tailwind CSS.
+  Oferuje elegancki interfejs w stylu glass-morphism z ciemnym motywem.
+  Obsługuje podstawowe operacje matematyczne: dodawanie, odejmowanie,
+  mnożenie, dzielenie oraz procenty. Idealny do szybkich obliczeń
+  bezpośrednio z Twojego serwera Umbrel.
+developer: "Marcias"
+website: https://github.com/marcias1976
+submitter: "Marcias"
+submission: https://github.com/marcias1976/umbrel
+repo: https://github.com/marcias1976/umbrel
+support: https://github.com/marcias1976/umbrel/issues
+gallery:
+  - https://raw.githubusercontent.com/marcias1976/umbrel/main/marcias-calculator/screenshot1.png
+  - https://raw.githubusercontent.com/marcias1976/umbrel/main/marcias-calculator/screenshot2.png
+  - https://raw.githubusercontent.com/marcias1976/umbrel/main/marcias-calculator/screenshot3.png
+releaseNotes: >-
+  Pierwsza wersja kalkulatora z eleganckim interfejsem glass-morphism.
+  Obsługuje podstawowe operacje matematyczne.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

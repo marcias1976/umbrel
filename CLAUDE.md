@@ -25,6 +25,7 @@ umbrel/
 | App ID | Name | Port | Description |
 |--------|------|------|-------------|
 | marcias-aiptv | Aiptv | 51976 | IPTV M3U Proxy Server |
+| marcias-calculator | Kalkulator | 3080 | React calculator with glass-morphism UI |
 | marcias-dumbdrop | Upload | 7608 | File upload system |
 | marcias-dumbpad | Notes | 7676 | Simple notepad |
 | marcias-hello-world | Hello World | 4000 | Template app |
@@ -126,7 +127,7 @@ services:
 
 ### Port Allocation
 
-Current ports in use: 580, 4000, 5051, 5432, 7608, 7676, 8080, 27017, 51976
+Current ports in use: 580, 3080, 4000, 5051, 5432, 7608, 7676, 8080, 27017, 51976
 
 When adding new apps, check existing ports to avoid conflicts.
 

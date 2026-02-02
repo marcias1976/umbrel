@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" rx="40" fill="url(#bg)"/>
+
+  <!-- Calculator body -->
+  <rect x="35" y="30" width="130" height="140" rx="15" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+
+  <!-- Display -->
+  <rect x="45" y="40" width="110" height="35" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <text x="145" y="65" text-anchor="end" fill="white" font-family="Arial" font-size="20" font-weight="300">123</text>
+
+  <!-- Buttons row 1 -->
+  <rect x="45" y="85" width="22" height="22" rx="5" fill="url(#accent)" opacity="0.8"/>
+  <rect x="74" y="85" width="22" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="103" y="85" width="22" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="132" y="85" width="22" height="22" rx="5" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Buttons row 2 -->
+  <rect x="45" y="114" width="22" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="74" y="114" width="22" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="103" y="114" width="22" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="132" y="114" width="22" height="22" rx="5" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Buttons row 3 -->
+  <rect x="45" y="143" width="51" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="103" y="143" width="22" height="22" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="132" y="143" width="22" height="22" rx="5" fill="url(#accent)"/>
+
+  <!-- Equal sign on bottom right button -->
+  <text x="143" y="159" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">=</text>
+</svg>
