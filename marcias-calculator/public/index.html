@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator - Marcias</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'calc-dark': '#1a1a2e',
+            'calc-mid': '#16213e',
+            'calc-accent': '#0f3460',
+            'calc-highlight': '#e94560',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .btn-press {
+      transition: all 0.1s ease;
+    }
+    .btn-press:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useCallback } = React;
+
+    function Calculator() {
+      const [display, setDisplay] = useState('0');
+      const [equation, setEquation] = useState('');
+      const [hasResult, setHasResult] = useState(false);
+
+      const handleNumber = useCallback((num) => {
+        if (hasResult) {
+          setDisplay(num);
+          setEquation('');
+          setHasResult(false);
+        } else if (display === '0' && num !== '.') {
+          setDisplay(num);
+        } else if (num === '.' && display.includes('.')) {
+          return;
+        } else {
+          setDisplay(display + num);
+        }
+      }, [display, hasResult]);
+
+      const handleOperator = useCallback((op) => {
+        setEquation(display + ' ' + op + ' ');
+        setDisplay('0');
+        setHasResult(false);
+      }, [display]);
+
+      const handleClear = useCallback(() => {
+        setDisplay('0');
+        setEquation('');
+        setHasResult(false);
+      }, []);
+
+      const handleBackspace = useCallback(() => {
+        if (display.length > 1) {
+          setDisplay(display.slice(0, -1));
+        } else {
+          setDisplay('0');
+        }
+      }, [display]);
+
+      const handlePercent = useCallback(() => {
+        const value = parseFloat(display) / 100;
+        setDisplay(value.toString());
+      }, [display]);
+
+      const handlePlusMinus = useCallback(() => {
+        if (display !== '0') {
+          setDisplay(display.startsWith('-') ? display.slice(1) : '-' + display);
+        }
+      }, [display]);
+
+      const handleEquals = useCallback(() => {
+        try {
+          const fullEquation = equation + display;
+          const sanitized = fullEquation
+            .replace(/×/g, '*')
+            .replace(/÷/g, '/')
+            .replace(/[^0-9+\-*/.\s]/g, '');
+
+          const result = Function('"use strict"; return (' + sanitized + ')')();
+
+          if (isNaN(result) || !isFinite(result)) {
+            setDisplay('Błąd');
+          } else {
+            const formatted = Number(result.toFixed(10)).toString();
+            setDisplay(formatted);
+          }
+          setEquation('');
+          setHasResult(true);
+        } catch (e) {
+          setDisplay('Błąd');
+          setEquation('');
+          setHasResult(true);
+        }
+      }, [equation, display]);
+
+      const Button = ({ children, onClick, className = '', span = 1 }) => (
+        <button
+          onClick={onClick}
+          className={`
+            btn-press glass rounded-2xl text-xl font-medium
+            hover:bg-white/10 active:bg-white/20
+            h-16 flex items-center justify-center
+            ${span === 2 ? 'col-span-2' : ''}
+            ${className}
+          `}
+        >
+          {children}
+        </button>
+      );
+
+      return (
+        <div className="glass rounded-3xl p-6 w-full max-w-sm shadow-2xl">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h1 className="text-white/80 text-sm font-medium tracking-widest uppercase">
+              Kalkulator
+            </h1>
+          </div>
+
+          {/* Display */}
+          <div className="glass rounded-2xl p-4 mb-6">
+            <div className="text-white/50 text-right text-sm h-6 overflow-hidden">
+              {equation}
+            </div>
+            <div className="text-white text-right text-4xl font-light tracking-wider overflow-hidden">
+              {display.length > 12 ? display.slice(0, 12) + '...' : display}
+            </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="grid grid-cols-4 gap-3">
+            <Button onClick={handleClear} className="text-calc-highlight">C</Button>
+            <Button onClick={handlePlusMinus} className="text-white/70">±</Button>
+            <Button onClick={handlePercent} className="text-white/70">%</Button>
+            <Button onClick={() => handleOperator('÷')} className="text-calc-highlight text-2xl">÷</Button>
+
+            <Button onClick={() => handleNumber('7')} className="text-white">7</Button>
+            <Button onClick={() => handleNumber('8')} className="text-white">8</Button>
+            <Button onClick={() => handleNumber('9')} className="text-white">9</Button>
+            <Button onClick={() => handleOperator('×')} className="text-calc-highlight text-2xl">×</Button>
+
+            <Button onClick={() => handleNumber('4')} className="text-white">4</Button>
+            <Button onClick={() => handleNumber('5')} className="text-white">5</Button>
+            <Button onClick={() => handleNumber('6')} className="text-white">6</Button>
+            <Button onClick={() => handleOperator('-')} className="text-calc-highlight text-2xl">−</Button>
+
+            <Button onClick={() => handleNumber('1')} className="text-white">1</Button>
+            <Button onClick={() => handleNumber('2')} className="text-white">2</Button>
+            <Button onClick={() => handleNumber('3')} className="text-white">3</Button>
+            <Button onClick={() => handleOperator('+')} className="text-calc-highlight text-2xl">+</Button>
+
+            <Button onClick={() => handleNumber('0')} className="text-white" span={2}>0</Button>
+            <Button onClick={() => handleNumber('.')} className="text-white">.</Button>
+            <Button onClick={handleEquals} className="bg-calc-highlight/80 hover:bg-calc-highlight text-white text-2xl">=</Button>
+          </div>
+
+          {/* Footer */}
+          <div className="mt-6 text-center">
+            <p className="text-white/30 text-xs">
+              Marcias App Store
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<Calculator />);
+  </script>
+</body>
+</html>

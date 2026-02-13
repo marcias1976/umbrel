@@ -1,0 +1,12 @@
+{
+  "name": "marcias-calculator",
+  "version": "1.0.0",
+  "description": "Elegant calculator built with React and Tailwind CSS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
